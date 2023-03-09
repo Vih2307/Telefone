@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #191919;
+    min-height: 100vh;
+    gap: 10px;
+}
+
+input{
+    border: none;
+}
+
+.teclado{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: #cccccc;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+input[type=tel]{
+    background-color: #cccccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    height: 40px;
+    width: 280px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+input[type=button]{
+    border-radius: 10px;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    font-size: 2em;
+}
